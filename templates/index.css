@@ -4,5 +4,9 @@ html,body{
   
   }
 
+body
+  {
+    background-image: url(step.jpg); 
+    background-color: green;
+  }
 
- 
