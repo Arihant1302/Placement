@@ -6,7 +6,16 @@ html,body{
 
 body
   {
-    background-image: url(step.jpg); 
+    background-image: url("D:\Ml Projects\pp\step.jpg"); 
     background-color: green;
   }
 
+  .container-sm{
+    background-color: grey;
+  }
+
+  .col-2
+  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+  }
