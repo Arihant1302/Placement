@@ -1,21 +1,5 @@
-html,body{
-    margin: 0 !important;
-    padding: 0 !important;
-  
-  }
-
+.col-2{
+    padding-right: 1cm;
+}
 body
-  {
-    background-image: url("D:\Ml Projects\pp\step.jpg"); 
-    background-color: green;
-  }
-
-  .container-sm{
-    background-color: grey;
-  }
-
-  .col-2
-  {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: grey;
-  }
+}
