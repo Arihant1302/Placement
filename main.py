@@ -16,9 +16,9 @@ def submit():
         work_exp = int(request.form.get("work-ex"))
         prediction = best_model_.placement_predictor(ssc_s,hsc_s,deg_s,etest_s,work_exp)
         if(prediction=="Placed"):
-            return render_template("test.html")
+            return render_template("placed.html")
         else:
-            return render_template('test2.html')
+            return render_template('notplaced.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
